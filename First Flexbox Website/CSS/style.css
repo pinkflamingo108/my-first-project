@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#home {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/Beach-2.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+.hero-about {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/dubai-hotel.jpg) no-repeat center center/cover;
+}
+
+.hero-services {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/breakfast.jpg) no-repeat center center/cover;
+    ;
+}
+
+.main-logo {
+    color: #ffffff;
+    font-family: 'Amiri', serif;
+    margin-left: 30px;
+}
+
+#nav-bar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar ul {
+    display: flex;
+    margin: 20px 5px;
+}
+
+#nav-bar ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    color: #ffffff;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    border-radius: 3px;
+    transition: .6s ease;
+}
+
+#nav-bar ul li a:hover {
+    background: #ffffff;
+    color: #333333;
+}
+
+#main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main-header h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-family: 'Amiri', serif;
+}
+
+#main-header p {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Amiri', serif;
+    font-weight: 50;
+}
+
+#main-header .header-list ul {
+    display: flex;
+}
+
+#main-header .header-list ul li {
+    list-style: none;
+    ;
+}
+
+#main-header .header-list ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    border: 1px solid #ffffff;
+    font-size: 25px;
+    font-family: 'Amiri', serif;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: .6s ease;
+    margin-top: 20px;
+}
+
+#main-header .header-list ul li a:hover {
+    background: #ffffff;
+    color: #333333;
+}
+
+/* Icons */
+
+#second-section {
+    line-height: 1.3;
+    padding: 30px;
+}
+
+#second-section h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.flex-items h3, p {
+    margin: 20px 20px;
+}
+
+/* About */
+
+#main-section .columns {
+    display: flex;
+    height: 400px;
+    margin-top: 50px;
+}
+
+#main-section .columns .column1 {
+    width: 50%;
+    background: url(/images/hotel.jpg) no-repeat center center/cover;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+#main-section .columns .column1-pool {
+    width: 50%;
+    background: url(/images/pool.jpg) no-repeat center center/cover;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+#main-section .columns .column1-chef {
+    width: 50%;
+    background: url(/about-images/chef.jpg) no-repeat center center/cover;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+#main-section .columns .column1-massage {
+    width: 50%;
+    background: url(/about-images/massage-class.jpg) no-repeat center center/cover;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+#main-section .columns .column2 {
+    width: 50%;
+    justify-content: end;
+    background: #B7F7F3;
+    margin-left: 15px;
+}
+
+#main-section .columns .column2 h4, .column2-pool h4 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Amiri', serif;
+}
+
+#main-section .columns .column2 p {
+    color: #868686;
+}
+
+#main-section .columns .column3 {
+    width: 50%;
+    justify-content: flex-start;
+    background: url(/images/massage.jpg) center center/cover;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#main-section .columns .column3-about {
+    width: 50%;
+    justify-content: flex-start;
+    background: url(/images/exotic-beach.jpg) center center/cover;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#main-section .columns .column3-bar {
+    width: 50%;
+    justify-content: flex-start;
+    background: url(/about-images/bartender.jpg) center center/cover;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#main-section .columns .column4 {
+    width: 50%;
+    justify-content: flex-end;
+    background: #B7F7F3;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+#main-section .columns .column4-about {
+    width: 50%;
+    justify-content: flex-end;
+    background: #B7F7F3;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+#main-section .columns .column4 h4, .column4-about h4 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Amiri', serif;
+}
+
+#main-section .columns .column4 p {
+    color: #868686;
+}
+
+/* Contact */
+
+#main-section .columns .column5 {
+    width: 50%;
+    background: url(/images/women-vacation.jpg) no-repeat center center/cover;
+    justify-content: start;
+    margin-left: 15px;
+}
+
+#main-section .columns .column6 {
+    width: 50%;
+    justify-content: end;
+    background: #B7F7F3;
+    margin-left: 15px;
+}
+
+#main-section .columns .column6 h4 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Amiri', serif;
+}
+
+/* Gallery */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .column {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row .column img {
+    height: 250px;
+    width: 300px;
+    margin: 0 5px;
+}
+
+.row .column img:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+/* Callback Form*/
+
+.callback-form {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.callback-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+    margin-bottom: 15px;
+}
+
+.callback-form input {
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: #f5f5f5 1px solid;
+}
+
+.callback-form input:focus {
+    outline: red;
+}
+
+.callback-form .btn {
+    padding: 12px 0;
+    margin-top: 20px 10px;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    background-color: #EF8646;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #B7F7F3;
+}
+
+.footer .social>* {
+    margin-right: 15px;
+}
